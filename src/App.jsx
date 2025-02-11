@@ -27,8 +27,10 @@ const App = () => {
       <ProductInfo /> */}
 
       {/* Challenge 04 - Lists */}
-      <UserList />
-      <ProductList />
+      {/* <UserList />
+      <ProductList /> */}
+
+      {/* Challenge 05 - Props */}
 
     </>
   )

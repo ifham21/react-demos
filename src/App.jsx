@@ -16,6 +16,9 @@ import Greetings from './components/Challenge06/Greetings'
 import StyledCard from './components/Challenge07/StyledCard'
 import ProfileCard from './components/Challenge07/ProfileCard'
 import IconComponent from './components/Challenge07/IconComponent'
+import Button from './components/Challenge08/Button'
+import Copy from './components/Challenge08/Copy'
+import Move from './components/Challenge08/Move'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -29,19 +32,23 @@ const App = () => {
       <MainContent />
       <Footer /> */}
 
+
       {/********************************************/}
       {/* Challenge 02 - What is JSX and its rules */}
       {/* <JSXRules /> */}
+
 
       {/********************************************/}
       {/* Challenge 03 - Expressions in JSX */}
       {/* <Greeting />
       <ProductInfo /> */}
 
+
       {/********************************************/}
       {/* Challenge 04 - Lists */}
       {/* <UserList />
       <ProductList /> */}
+
 
       {/********************************************/}
       {/* Challenge 05 - Props */}
@@ -56,6 +63,7 @@ const App = () => {
         <p>content of Card 2</p>
       </Card> */}
 
+
       {/********************************************/}
       {/* Challenge 06 - Conditional Rendering */}
       {/* Numerincal props and condition for it */}
@@ -65,14 +73,21 @@ const App = () => {
       {/* Text props and coditions */}
       {/* <Greetings timeOfDay="afternoon" /> */}
 
+
       {/********************************************/}
       {/* Challenge 07 - Styling */}
       {/* installed react-icons for this section */}
-      <StyledCard />
+      {/* <StyledCard />
       <br />
       <ProfileCard />
-      <IconComponent />
+      <IconComponent /> */}
 
+
+      {/********************************************/}
+      {/* Challenge 08 - Button */}
+      <Copy />
+      <Move />
+      <Button />
 
 
 

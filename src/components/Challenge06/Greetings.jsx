@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Greetings = ({timeOfDay}) => {
+const Greetings = (props) => {
 
   const morning = "Good Morning!";
   const afternoon = "Good Afternoon!";
 
   return (
     <div>
-      {timeOfDay == "morning"? morning : afternoon}
+      {props.timeOfDay == "morning"? morning : afternoon}
     </div>
   )
 }

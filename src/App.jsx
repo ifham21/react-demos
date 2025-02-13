@@ -54,7 +54,7 @@ const App = () => {
       {/* Boolean props and conditions for it */}
       <UserStatus loggedIn = {true} isAdmin = {false} />
       {/* Text props and coditions */}
-      <Greetings timeOfDay={"afternoon"} />
+      <Greetings timeOfDay="afternoon" />
 
     </>
   )

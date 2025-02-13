@@ -2,13 +2,13 @@ import React from 'react'
 
 const Weather = ({temperature}) => {
 
-    const tempCold = <div><p>It's cold outside!</p></div>
-    const tempNice = <div><p>It's nice outside!</p></div>
-    const tempHot = <div><p>It's hot outside!</p></div>
+    const tempCold = <h1>It's cold outside!</h1>
+    const tempNice = <h1>It's nice outside!</h1>
+    const tempHot = <h1>It's hot outside!</h1>
 
   return (
     <div>
-        {temperature <= 15 ? tempCold: (temperature <= 25) ? tempNice: tempHot}
+        {temperature <= 15 ? tempCold: (temperature > 15 && temperature <= 25) ? tempNice: tempHot}
     </div>
   )
 }

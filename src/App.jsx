@@ -13,6 +13,7 @@ import Card from './components/Challenge05/Card'
 import Weather from './components/Challenge06/Weather'
 import UserStatus from './components/Challenge06/UserStatus'
 import Greetings from './components/Challenge06/Greetings'
+import StyledCard from './components/Challenge07/StyledCard'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -20,22 +21,27 @@ const App = () => {
 
   return (
     <>
+      {/********************************************/}
       {/* Challenge 01 - Use of react (Understanding the power of components) */}
       {/* <Header />
       <MainContent />
       <Footer /> */}
 
+      {/********************************************/}
       {/* Challenge 02 - What is JSX and its rules */}
       {/* <JSXRules /> */}
 
+      {/********************************************/}
       {/* Challenge 03 - Expressions in JSX */}
       {/* <Greeting />
       <ProductInfo /> */}
 
+      {/********************************************/}
       {/* Challenge 04 - Lists */}
       {/* <UserList />
       <ProductList /> */}
 
+      {/********************************************/}
       {/* Challenge 05 - Props */}
       {/* <Person name = "Ahmed" age = {25} />
       <Product name="Laptop" price = {1200} /> 
@@ -48,13 +54,25 @@ const App = () => {
         <p>content of Card 2</p>
       </Card> */}
 
+      {/********************************************/}
       {/* Challenge 06 - Conditional Rendering */}
       {/* Numerincal props and condition for it */}
-      <Weather temperature={1} /> 
+      {/* <Weather temperature={1} />  */}
       {/* Boolean props and conditions for it */}
-      <UserStatus loggedIn = {true} isAdmin = {false} />
+      {/* <UserStatus loggedIn = {true} isAdmin = {false} /> */}
       {/* Text props and coditions */}
-      <Greetings timeOfDay="afternoon" />
+      {/* <Greetings timeOfDay="afternoon" /> */}
+
+      {/********************************************/}
+      {/* Challenge 07 - Styling */}
+      {/* installed react-icons for this section */}
+      <StyledCard />
+
+
+
+
+
+
 
     </>
   )

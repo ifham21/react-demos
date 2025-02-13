@@ -25,6 +25,7 @@ This repository contains a series of challenges to help you grasp core React con
 4. **Lists in React** - Rendering and manipulating lists.
 5. **Props in React** - Understanding and utilizing props.
 6. **Conditional Rendering in React** - Understanding the conditional rendering.
+7. **Styling** - Understanding how styles in React works.
 
 These challenges are designed to be interactive and guide you through practical implementations, helping you build a solid foundation in React development.
 

@@ -10,6 +10,7 @@ import ProductList from './components/Challenge04/ProductList'
 import Person from './components/Challenge05/Person'
 import Product from './components/Challenge05/Product'
 import Card from './components/Challenge05/Card'
+import Weather from './components/Challenge06/Weather'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -46,6 +47,7 @@ const App = () => {
       </Card> */}
 
       {/* Challenge 06 - Conditional Rendering */}
+      <Weather temperature={1} />
 
     </>
   )

@@ -2,9 +2,9 @@ import React from 'react'
 
 const Weather = ({temperature}) => {
 
-    const tempCold = <tempCold><p>It's cold outside!</p></tempCold>
-    const tempNice = <tempNice><p>It's nice outside!</p></tempNice>
-    const tempHot = <tempHot><p>It's hot outside!</p></tempHot>
+    const tempCold = <div><p>It's cold outside!</p></div>
+    const tempNice = <div><p>It's nice outside!</p></div>
+    const tempHot = <div><p>It's hot outside!</p></div>
 
   return (
     <div>

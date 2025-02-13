@@ -11,6 +11,7 @@ import Person from './components/Challenge05/Person'
 import Product from './components/Challenge05/Product'
 import Card from './components/Challenge05/Card'
 import Weather from './components/Challenge06/Weather'
+import UserStatus from './components/Challenge06/UserStatus'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -48,6 +49,7 @@ const App = () => {
 
       {/* Challenge 06 - Conditional Rendering */}
       <Weather temperature={1} />
+      <UserStatus loggedIn = {true} isAdmin = {false} />
 
     </>
   )

@@ -12,6 +12,7 @@ import Product from './components/Challenge05/Product'
 import Card from './components/Challenge05/Card'
 import Weather from './components/Challenge06/Weather'
 import UserStatus from './components/Challenge06/UserStatus'
+import Greetings from './components/Challenge06/Greetings'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -48,8 +49,12 @@ const App = () => {
       </Card> */}
 
       {/* Challenge 06 - Conditional Rendering */}
-      <Weather temperature={1} />
+      {/* Numerincal props and condition for it */}
+      <Weather temperature={1} /> 
+      {/* Boolean props and conditions for it */}
       <UserStatus loggedIn = {true} isAdmin = {false} />
+      {/* Text props and coditions */}
+      <Greetings timeOfDay={"afternoon"} />
 
     </>
   )

@@ -11,8 +11,12 @@ const StyledCard = () => {
 
   return (
     <div style={styles}>
-        <h1>Title</h1>
-        <p>Description</p>
+        <h1>Styled Card</h1>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Placeat, quisquam beatae tenetur iste animi perferendis fugiat ad tempore omnis. 
+            Aperiam labore enim placeat eos ea vel omnis consectetur recusandae quas!
+        </p>
     </div>
   )
 }

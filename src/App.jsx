@@ -14,6 +14,8 @@ import Weather from './components/Challenge06/Weather'
 import UserStatus from './components/Challenge06/UserStatus'
 import Greetings from './components/Challenge06/Greetings'
 import StyledCard from './components/Challenge07/StyledCard'
+import ProfileCard from './components/Challenge07/ProfileCard'
+import IconComponent from './components/Challenge07/IconComponent'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -67,6 +69,9 @@ const App = () => {
       {/* Challenge 07 - Styling */}
       {/* installed react-icons for this section */}
       <StyledCard />
+      <br />
+      <ProfileCard />
+      <IconComponent />
 
 
 

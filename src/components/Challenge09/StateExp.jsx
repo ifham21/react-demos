@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+//Example to update a number using state
 const StateExp = () => {
       //useState to initialize and set the new value
       const [count, setCount] = useState(0);

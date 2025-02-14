@@ -20,9 +20,11 @@ const StateExp3 = () => {
 
   return (
     <div>
-        <h1>Title: {movie.title}</h1>
-        <h3>Rating: {movie.rating} </h3>
+        <h1>Example for updating the Object using State</h1>
+        <h3>Title: {movie.title}</h3>
+        <h4>Rating: {movie.rating} </h4>
         <button onClick={handleClick}>Change Rating</button>
+        <hr />
     </div>
   )
 }

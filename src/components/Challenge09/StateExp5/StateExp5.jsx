@@ -9,8 +9,10 @@ const StateExp5 = () => {
 
   return (
     <div>
+      <h1>Example for share the state into our component using props</h1>
         <StateExp5C1 count = {count} onClickHandler = { () => setCount(count + 1)} />
         <StateExp5C2 count = {count} onClickHandler = { () => setCount(count + 1)} />
+        <hr />
     </div>
   )
 }

@@ -18,14 +18,18 @@ const StateExp2 = () => {
 
   return (
     <div>
-        {friends.map((friend) => (
-            <li key={Math.random()}>
-                {friend}
-            </li>
-        ))}
+        <h1>Example for updating an Array using State</h1>
+        <p>
+            {friends.map((friend) => (
+                <li key={Math.random()}>
+                    {friend}
+                </li>
+            ))}
+        </p>
         <button onClick={addOneFriend}>Add Friend</button>
         <button onClick={removeOneFriend}>Remove Friend</button>
         <button onClick={updateOneFriend}>Update Friend</button>
+        <hr />
 
     </div>
   )

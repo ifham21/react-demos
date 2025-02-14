@@ -25,6 +25,7 @@ const StateExp4 = () => {
 
   return (
     <div>
+        <h1>Example for updating the Array of Object using State</h1>
         <p>
             {movies.map((movie) => (
                 <li key={movie.id}>
@@ -33,6 +34,7 @@ const StateExp4 = () => {
             ))}
         </p>
         <button onClick={handleClick}>Change Name</button>
+        <hr />
     </div>
   )
 }

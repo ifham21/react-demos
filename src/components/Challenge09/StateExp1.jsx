@@ -21,11 +21,13 @@ const StateExp = () => {
   
     return (
       <div>
+        <h1>Example to update a number using state</h1>
           <button onClick={increment} > + </button>
           <h1>
               {count}
           </h1>
           <button onClick={decrement} > - </button>
+          <hr />
           
   
       </div>

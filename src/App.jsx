@@ -19,7 +19,7 @@ import IconComponent from './components/Challenge07/IconComponent'
 import Button from './components/Challenge08/Button'
 import Copy from './components/Challenge08/Copy'
 import Move from './components/Challenge08/Move'
-import State from './components/Challenge09/State'
+import StateExp from './components/Challenge09/StateExp'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -93,7 +93,7 @@ const App = () => {
 
       {/********************************************/}
       {/* Challenge 09 - State and Hooks */}
-      <State />
+      <StateExp />
 
 
 

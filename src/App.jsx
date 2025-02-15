@@ -117,8 +117,13 @@ const App = () => {
 
 
       {/********************************************/}
-      {/* Challenge 10 - Portal (Modals, Tooltips, or for Dropdowns) */}
+      {/* Challenge 10 - Portal (used for => Modals, Tooltips, or for Dropdowns) */}
       {/* <PortalExp /> */}
+
+
+      {/********************************************/}
+      {/* Challenge 11 - UseEffect Hooks */}
+
 
 
     </>

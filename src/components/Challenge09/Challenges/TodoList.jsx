@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-//
+//Updating the arrays with state
 const TodoList = () => {
 
     //state for list the items

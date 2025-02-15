@@ -25,6 +25,7 @@ import StateExp3 from './components/Challenge09/Explanation/StateExp3'
 import StateExp4 from './components/Challenge09/Explanation/StateExp4'
 import StateExp5 from './components/Challenge09/Explanation/StateExp5/StateExp5'
 import Counter from './components/Challenge09/Counter'
+import TodoList from './components/Challenge09/TodoList'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -104,6 +105,8 @@ const App = () => {
       <StateExp4 />
       <StateExp5 /> */}
       <Counter />
+      <hr />
+      <TodoList />
 
 
 

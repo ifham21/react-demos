@@ -24,6 +24,7 @@ const TodoList = () => {
         {/* The onChange function will update state with the use of setNewItem */}
         <input type = "text" value = {newItem} onChange={(event) => setNewItem(event.target.value)} placeholder='Please enter the list' />
         <button onClick={addItem}>Add</button>
+        <p>Todo List</p>
         <ol>
             {/* iterate the items in the list, at first no any items and then when items added those will be listed here */}
             {items.map((item, index) => (

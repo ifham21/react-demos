@@ -30,6 +30,7 @@ const Profile = () => {
         <input type="text" value={name} onChange={(event) => setName(event.target.value)} placeholder='Enter your name' />
         <input type="text" value={age} onChange={(event) => setAge(event.target.value)} placeholder='Enter your age' />
         <button onClick={handleClick}>Add</button>
+        <h3>Profile Name and Age List</h3>
         <ul>
             {items.map((item, index) => (
                 <li key={index}>

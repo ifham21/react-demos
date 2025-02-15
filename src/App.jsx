@@ -24,6 +24,7 @@ import StateExp2 from './components/Challenge09/Explanation/StateExp2'
 import StateExp3 from './components/Challenge09/Explanation/StateExp3'
 import StateExp4 from './components/Challenge09/Explanation/StateExp4'
 import StateExp5 from './components/Challenge09/Explanation/StateExp5/StateExp5'
+import Counter from './components/Challenge09/Counter'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -102,7 +103,7 @@ const App = () => {
       <StateExp3 />
       <StateExp4 />
       <StateExp5 /> */}
-
+      <Counter />
 
 
 

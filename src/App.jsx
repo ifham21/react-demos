@@ -28,6 +28,7 @@ import Counter from './components/Challenge09/Challenges/Counter'
 import TodoList from './components/Challenge09/Challenges/TodoList'
 import Profile from './components/Challenge09/Challenges/Profile'
 import ShoppingList from './components/Challenge09/Challenges/ShoppingList'
+import PortalExp from './components/Challenge10/PortalExp'
 
 //function will start as function App(){ return (<h1>Hi</h1>) }
 //Arrow function as below
@@ -106,15 +107,18 @@ const App = () => {
       <StateExp3 />
       <StateExp4 />
       <StateExp5 /> */}
-      <Counter />
+      {/* <Counter />
       <hr />
       <TodoList />
       <hr />
       <Profile />
       <hr />
-      <ShoppingList />
+      <ShoppingList /> */}
 
 
+      {/********************************************/}
+      {/* Challenge 10 - Portal (Modals, Tooltips, or for Dropdowns) */}
+      {/* <PortalExp /> */}
 
 
     </>
